@@ -8,6 +8,7 @@ const GlobalStyled = createGlobalStyle `
     margin:0;
     padding:0;
     box-sizing: borde-box;
+    font-family: "Rubik Scribble, system-ui;
 }
 `
 

@@ -2,6 +2,8 @@ import React from "react";
 import Inicio from "./Inicio.jsx";
 import Sobre from "./Sobre.jsx";
 import Projetos from "./Projetos.jsx";
+import* as S from "./Style.jsx";
+
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom"; 
 
 
@@ -9,15 +11,16 @@ import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 
  function Navegaçao (){
     return(
+        
         <BrowserRouter>
-        <nav>
-            <ul>
+        <S.Nav>
+            <S.Ul>
 
                 <li><Link to="/">Inicio </Link></li>
                 <li><Link to="/Sobre">Sobre</Link></li>
                 <li><Link to="/Projetos">Projetos</Link></li>
-            </ul>
-        </nav>
+            </S.Ul>
+        </S.Nav>
 
         <Routes>
 
@@ -28,6 +31,13 @@ import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
         </Routes>
         
         </BrowserRouter>
+
+
+
+
+
+
+
     )
 }
 export default Navegaçao
