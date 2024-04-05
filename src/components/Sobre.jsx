@@ -1,22 +1,21 @@
 import React from "react";
-import Vai from "./Imagens/Web.png"
+import Vai from "./Imagens/web.png"
 import Css from "./Imagens/css.png"
 import Java from "./Imagens/jv.png"
 import Html from "./Imagens/html.png"
-import Lady from "./Imagens/Lady.jpeg"
+import Halo from "./Imagens/halo.jpg"
 import * as S from "./Style.jsx"
-import * as Sobre1Jsx from "./Sobre.1.jsx";
 
 
 function Sobre() {
     return (
-        <Sobre1Jsx.Sobre>
+        <S.Sobre>
             <S.Estudos>
                 <h2>ESTUDOS</h2>
 
                 <div>
                     <h2>Desenvolvimento Front-End</h2>
-                    <h3>Sgo/2023 - Maio/2024</h3>
+                    <h3>Ago/2023 - Maio/2024</h3>
 
                 </div>
 
@@ -51,14 +50,14 @@ function Sobre() {
                 <h2>PROFISSIONAL</h2>
                 <div>
                     <h2>Escritora</h2>
-                    <img src={Lady} alt="capa do livro" />
+                    <img src={Halo} alt="capa do livro" />
 
                 </div>
 
 
             </S.Profissional>
 
-        </Sobre1Jsx.Sobre>
+        </S.Sobre>
 
 
     )

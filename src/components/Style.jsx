@@ -87,8 +87,12 @@ h2{
 }
 
 `
+///--- estili sobre
+
+
 
  export const Estudos = styled.section `
+ background-color:black;
  width:30vw;
  height:50vh;
  display:flex;
@@ -98,6 +102,7 @@ h2{
  border:solid goldenrod;
  `
  export const Habilidades = styled.section`
+ background-color:black;
 width: 30vw;
 border: solid goldenrod;
 display: flex;
@@ -119,13 +124,16 @@ img{
 
 export const Profissional = styled.section`
 width: 30vw;
+
 border: solid red;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
 flex-direction: column;
-background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2020/12/iStock-1163061277-min.jpg);
+background-image: url(https://www.gamepur.com/wp-content/uploads/wp-content/uploads/2022/08/31153426/Destiny2_VoidWarlock-850x478.jpg);
+background-size: no-repeat;
 background-size:cover ;
+
 
 div{
     display: flex;
